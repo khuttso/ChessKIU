@@ -13,11 +13,15 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Common\" />
-      <Folder Include="Entities\" />
-      <Folder Include="Enums\" />
-      <Folder Include="Exceptions\" />
-      <Folder Include="ValueObjects\" />
+      <Folder Include="Data\Configuration\" />
+      <Folder Include="Data\Interfaces\" />
+      <Folder Include="Data\Repositories\" />
+      <Folder Include="Data\Scripts\Migrations\" />
+      <Folder Include="Data\Scripts\StoredProcedures\Authentication\" />
+      <Folder Include="Data\Scripts\StoredProcedures\Events\" />
+      <Folder Include="Data\Scripts\StoredProcedures\Tournaments\" />
+      <Folder Include="Data\Scripts\StoredProcedures\Users\" />
+      <Folder Include="Services\" />
     </ItemGroup>
 
 </Project>
