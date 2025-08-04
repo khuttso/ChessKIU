@@ -1,0 +1,6 @@
+@ChessKIU.Core_HostAddress = http://localhost:5259
+
+GET {{ChessKIU.Core_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
