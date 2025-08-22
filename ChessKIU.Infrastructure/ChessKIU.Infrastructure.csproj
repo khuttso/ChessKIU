@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Data\Configuration\" />
+      <Folder Include="Data\Interfaces\" />
+      <Folder Include="Data\Repositories\" />
+      <Folder Include="Data\Scripts\StoredProcedures\Authentication\" />
+      <Folder Include="Data\Scripts\StoredProcedures\Events\" />
+      <Folder Include="Data\Scripts\StoredProcedures\Tournaments\" />
+      <Folder Include="Data\Scripts\StoredProcedures\Users\" />
+      <Folder Include="Identity\Interfaces\" />
+      <Folder Include="Identity\Models\" />
+      <Folder Include="Identity\Services\" />
+      <Folder Include="Services\" />
+    </ItemGroup>
+
+</Project>

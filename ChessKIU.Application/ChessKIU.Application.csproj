@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Authentication\Commands\Login\" />
+      <Folder Include="Authentication\Commands\Logout\" />
+      <Folder Include="Authentication\Commands\RefreshToken\" />
+      <Folder Include="Authentication\Commands\Register\" />
+      <Folder Include="Authentication\Queries\GetCurrentUser\" />
+      <Folder Include="Common\Behaviours\" />
+      <Folder Include="Common\Interfaces\" />
+      <Folder Include="Common\Mappings\" />
+      <Folder Include="Common\Models\" />
+      <Folder Include="Events\Commands\CreateEvent\" />
+      <Folder Include="Events\Commands\DeleteEvent\" />
+      <Folder Include="Events\Commands\UpdateEvent\" />
+      <Folder Include="Events\EventHandlers\" />
+      <Folder Include="Events\Queries\GetEventById\" />
+      <Folder Include="Events\Queries\GetEvents\" />
+      <Folder Include="Tournaments\Commands\CreateTournamentPairing\" />
+      <Folder Include="Tournaments\Commands\CreateTournament\" />
+      <Folder Include="Tournaments\Commands\DeleteTournament\" />
+      <Folder Include="Tournaments\Commands\UpdateTournamentResult\" />
+      <Folder Include="Tournaments\Commands\UpdateTournament\" />
+      <Folder Include="Tournaments\EventHandlers\" />
+      <Folder Include="Tournaments\Queries\GetTournamentById\" />
+      <Folder Include="Tournaments\Queries\GetTournamentPairings\" />
+      <Folder Include="Tournaments\Queries\GetTournamentResults\" />
+      <Folder Include="Tournaments\Queries\GetTournaments\" />
+      <Folder Include="Users\Commands\CreateUser\" />
+      <Folder Include="Users\Commands\DeleteUser\" />
+      <Folder Include="Users\Commands\UpdateUserRating\" />
+      <Folder Include="Users\Commands\UpdateUser\" />
+      <Folder Include="Users\EventHandlers\" />
+      <Folder Include="Users\Queries\GetLeaderboard\" />
+      <Folder Include="Users\Queries\GetUserById\" />
+      <Folder Include="Users\Queries\GetUsers\" />
+    </ItemGroup>
+
+</Project>
